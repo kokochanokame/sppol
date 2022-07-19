@@ -1,0 +1,609 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Noto Sans JP", "Zen Maru Gothic", "Concert One", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #30363a;
+  position: relative;
+  cursor: none;
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0; }
+
+p {
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0; }
+
+a {
+  color: #30363a;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0; }
+
+ul > li {
+  list-style: none; }
+
+figure {
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0; }
+
+img {
+  max-width: 100%;
+  vertical-align: bottom; }
+
+.container {
+  width: 87.2vw;
+  margin: 0 auto; }
+
+.cursor,
+.follower {
+  position: absolute;
+  top: 28vw;
+  left: 24vw;
+  pointer-events: none; }
+
+.cursor {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: #000;
+  z-index: 1001; }
+
+.follower {
+  width: 40px;
+  height: auto;
+  z-index: 1000; }
+
+.top__mv {
+  background-image: url("/static/image/special/intereon2207/mv_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+.top__link {
+  display: block;
+  margin: 0 auto;
+  height: 56.2666666667vw; }
+.top__img img {
+  width: 100%;
+  height: 100%; }
+
+.intereon2207_contents {
+  overflow-x: hidden;
+  padding-bottom: 37.3333333333vw;
+  background: url(/static/image/special/intereon2207/bg_main.png) repeat left top; }
+
+.production {
+  padding-top: 4.9333333333vw; }
+  .production__img {
+    width: auto;
+    height: 100%; }
+    .production__img img {
+      width: auto;
+      height: 86.9333333333vw; }
+  .production__items {
+    margin: 0 auto 37.466667vw auto;
+    width: 60.933333vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6.6666666667vw;
+    flex-wrap: wrap; }
+  .production__link {
+    margin-top: 4.5333333333vw;
+    font-family: "Noto Sans JP";
+    font-size: 3.2vw;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff; }
+  .production__item {
+    width: 26.426667vw;
+    height: 31.72vw;
+    background-image: url(/static/image/special/intereon2207/inteleon_shape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; }
+    .production__item::before {
+      position: absolute;
+      content: "";
+      width: 20px;
+      height: 9.1px;
+      left: 40%;
+      bottom: 23px;
+      background-image: url(/static/image/special/intereon2207/arrow.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .production__item:hover {
+      background-image: url(/static/image/special/intereon2207/hover_inteleon_shape.png); }
+
+/*.title__wrapper {*/
+/*  margin: 10.8133333333vw auto 7.1px auto;*/
+/*  padding-top: 8vw;*/
+/*  background-image: url(/static/image/special/intereon2207/title_bg.png);*/
+/*  background-size: contain;*/
+/*  background-repeat: no-repeat;*/
+/*  background-position: center;*/
+/*  width: 68.9333333333vw;*/
+/*  height: 27.3333333333vw;*/
+/*  left: 0;*/
+/*  bottom: 0; }*/
+
+.section__title {
+  display: block;
+  padding-top: 14vw;
+  margin: 0 auto;
+  width: 68.9333333333vw;
+  height: 27.3066666667vw;
+  font-family: "Zen Maru Gothic";
+  font-size: 4.8vw;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 3.6px;
+  text-align: center;
+  color: #fff;
+  background-image: url(/static/image/special/intereon2207/title_bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.intereon__title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -36vw;
+  display: block;
+  padding-top: 21vw;
+  margin: 0 auto;
+  width: 68.9333333333vw;
+  height: 46vw;
+  font-family: "Zen Maru Gothic";
+  font-size: 4.8vw;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 3.6px;
+  text-align: center;
+  color: #fff;
+  background-image: url(/static/image/special/intereon2207/title_intere.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.production__intereon {
+  position: absolute;
+  width: 183.3px;
+  height: 188px;
+  right: -10px;
+  top: -210px; }
+.production__container {
+  position: relative;
+  width: 100%;
+  padding: 3.4533333333vw;
+  box-shadow: 2.8px 2.9px 3px 0 rgba(2, 37, 75, 0.15);
+  border: solid 10px #54b7d4;
+  background-color: #ebf1f7;
+  border-radius: 32px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+.production__box-inner {
+  padding: 4vw 2.2266666667vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5.3333333333vw;
+  width: 80vw;
+  border-radius: 32px;
+  box-shadow: 0 0 10px 0 rgba(2, 37, 75, 0.1);
+  background-color: #fff; }
+.production__img-items {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px; }
+.production__img-item {
+  width: 45%; }
+.production__img-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; }
+.production__img {
+  flex-shrink: 0;
+  margin-bottom: 2.1333333333vw;
+  width: 50%;
+  height: 61.2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .production__img img {
+    width: 26.4666666667vw; }
+.production__img1 {
+  flex-shrink: 0;
+  width: 14.6666666667vw;
+  height: 14.6666666667vw;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 2px #d2d2d2;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .production__img1:hover {
+    border: solid 4px #54b7d4; }
+  .production__img1 img {
+    width: 5.2vw;
+    height: 12vw; }
+.production__img2 {
+  flex-shrink: 0;
+  width: 14.6666666667vw;
+  height: 14.6666666667vw;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 2px #d2d2d2;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .production__img2:hover {
+    border: solid 4px #54b7d4; }
+  .production__img2 img {
+    width: 5.2vw;
+    height: 12vw; }
+.production__desc {
+  padding: 7.2vw 4.2vw;
+  width: 77vw;
+  border-radius: 16px;
+  border: solid 4px #54b7d4;
+  background-color: #EAF6FA; }
+.production__sub {
+  font-family: "Zen Maru Gothic";
+  font-size: 5.0666666667vw;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #004898; }
+.production__title {
+  white-space: nowrap;
+  font-family: "Zen Maru Gothic";
+  font-size: 6.6666666667vw;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 1.12;
+  letter-spacing: -2.9px;
+  text-align: left;
+  color: #004898; }
+.production__price {
+  font-family: "Zen Maru Gothic";
+  font-size: 4.133333vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #004898; }
+.production__price-font {
+  font-family: "Concert One";
+  font-size: 6.1333333333vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #004898; }
+.production__price-sub {
+  font-family: "Zen Maru Gothic";
+  font-size: 3.2vw;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #004898; }
+.production__text {
+  margin-top: 4vw;
+  font-family: "Noto Sans JP";
+  font-size: 3.7333333333vw;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #30363a; }
+.production__text-sub {
+  font-size: 3.4666666667vw;
+  margin-top: -5vw; }
+.production__inform {
+  width: 68.44vw; }
+.production__inform-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2.1466666667vw;
+  padding: 3.5866666667vw 0;
+  border-top: solid 1px #54b7d4; }
+  .production__inform-item:first-child {
+    border: none; }
+.production__inform-title {
+  white-space: nowrap;
+  flex-shrink: 0;
+  font-family: "Noto Sans JP";
+  font-size: 3.2vw;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.79;
+  letter-spacing: normal;
+  text-align: center;
+  background-color: #f0eb45;
+  width: 20.5333333333vw;
+  height: 6.1333333333vw;
+  border-radius: 23px;
+  color: #54b7d4; }
+.production__inform-text {
+  font-family: "Noto Sans JP";
+  font-size: 3.7333333333vw;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #30363a; }
+.production__inform-sub {
+  display: block;
+  font-family: "Noto Sans JP";
+  font-size: 2.9333333333vw;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.73;
+  letter-spacing: normal;
+  text-align: left;
+  color: #30363a; }
+.production__attention-items {
+  margin-bottom: 6vw; }
+.production__attention-item {
+  width: 77.24vw;
+  font-family: "Noto Sans JP";
+  font-size: 3.2vw;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #30363a; }
+
+.sale__button {
+  display: block;
+  margin-top: 5.0666666667vw;
+  margin-bottom: 10vw;
+  font-family: "Zen Maru Gothic";
+  font-size: 3.7333333333vw;
+  font-weight: bold;
+  font-stretch: normal;
+  line-height: 12vw;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #f0eb45;
+  width: 87.2vw;
+  height: 12vw;
+  border-radius: 45px;
+  background-image: url(/static/image/special/intereon2207/cta_btn.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.production__attention-title {
+  margin-top: 5.0666666667vw;
+  margin-bottom: 2.6666666667vw;
+  font-family: "Noto Sans JP";
+  font-size: 3.7333333333vw;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 13.3333333333vw;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  width: 80vw;
+  height: 13.3333333333vw;
+  border-radius: 50px;
+  background-color: #54b7d4;
+  position: relative;
+  cursor: pointer;
+  transition-duration: 0.2s; }
+  .production__attention-title::before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    top: 50%;
+    transform: rotate(90deg);
+    right: 8.9333333333vw;
+    transition-duration: 0.2s; }
+  .production__attention-title::after {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 8.9333333333vw; }
+
+.open.production__attention-title::before {
+  opacity: 0; }
+
+.accordion__wrapper {
+  display: none;
+  transition-duration: 0.2s; }
+
+.open.accordion__wrapper {
+  display: block; }
+
+.size__box {
+  margin-bottom: 10vw;
+  width: 87.2133333333vw;
+  height: 96vw;
+  border-radius: 32px;
+  background-image: url(/static/image/special/intereon2207/syuku_bg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; }
+.size__box-right {
+  margin-left: 46.32vw;
+  padding-top: 13vw; }
+.size__box__right-img {
+  margin-top: 5vw;
+  margin-left: 4vw; }
+.size__text {
+  margin-bottom: 1vw;
+  font-family: "Zen Maru Gothic";
+  font-size: 4.36vw;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  -webkit-box-decoration-break: clone;
+  line-height: 7.4666666667vw;
+  letter-spacing: 0.33px;
+  text-align: center;
+  color: #00a0bb;
+  width: 28.6666666667vw;
+  height: 7.4666666667vw;
+  background-color: #f0eb45; }
+.size__text-sub {
+  height: 31px;
+  margin: 5.8px 0 0;
+  font-family: "Zen Maru Gothic";
+  font-size: 2.9333333333vw;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: left;
+  color: #30363a; }
+.size__concert {
+  font-family: "Concert One";
+  font-weight: normal; }
+
+.point__box {
+  margin-top: 2vw;
+  margin-bottom: 9vw;
+  padding: 2vw;
+  width: 87.2vw;
+  height: auto;
+  border-radius: 42px;
+  background-color: #fff;
+  box-shadow: 2.8px 2.9px 3px 0 rgba(2, 37, 75, 0.15);
+  border: solid 10px #54b7d4; }
+.point__box-inner {
+  padding: 4.0666666667vw 7px;
+  border-radius: 32px;
+  background-image: url(/static/image/special/intereon2207/bg_grey.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+.point__box-bottom {
+  margin-top: 1vw; }
+.point__attention {
+  margin-top: 4vw;
+  white-space: nowrap;
+  font-family: "Noto Sans JP";
+  font-size: 2.9333333333vw;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  text-align: right;
+  color: #30363a; }
+
+.day__title {
+  font-family: "Zen Maru Gothic";
+  font-size: 4.8vw;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #eee;
+  width: 81.3333333333vw;
+  height: 33.84vw;
+  display: block;
+  padding-top: 16vw;
+  margin: 0 auto;
+  background-image: url(/static/image/special/intereon2207/title_spbig.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+.day__box {
+  width: 87.2vw;
+  height: 299.066667vw;
+  background-image: url(/static/image/special/intereon2207/days.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+.day__attention {
+  margin-top: -6vw;
+  font-family: "Noto Sans JP";
+  font-size: 2.9333333333vw;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  text-align: right;
+  color: #30363a; }
+
+.to-top {
+  width: 25vw;
+  height: 25vw;
+  position: fixed;
+  right: 10vw;
+  bottom: 4vw;
+  z-index: 999; }
+
+/*# sourceMappingURL=intereon2207.css.map */
