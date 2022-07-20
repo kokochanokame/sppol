@@ -116,7 +116,7 @@ img {
 
 .top {
   &__mv {
-    background-image: url("/static/image/special/intereon2207/mv_bg.png");
+    background-image: url("/sp/static/image/special/intereon2207/mv_bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -139,7 +139,7 @@ img {
   overflow-x: hidden;
   width: 100vw;
   padding-bottom: vw(750, 280);
-  background: url(/static/image/special/intereon2207/bg_main.png) repeat left top;
+  background: url(/sp/static/image/special/intereon2207/bg_main.png) repeat left top;
 }
 
 .production{
@@ -184,7 +184,7 @@ img {
   &__item {
     width: 26.426667vw;
     height: vw(750, 237.9);
-    background-image: url(/static/image/special/intereon2207/inteleon_shape.png);
+    background-image: url(/sp/static/image/special/intereon2207/inteleon_shape.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -200,14 +200,14 @@ img {
       height: 9.1px;
       left: 40%;
       bottom: 23px;
-      background-image: url(/static/image/special/intereon2207/arrow.png);
+      background-image: url(/sp/static/image/special/intereon2207/arrow.png);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
     }
 
     &:hover {
-      background-image: url(/static/image/special/intereon2207/hover_inteleon_shape.png);
+      background-image: url(/sp/static/image/special/intereon2207/hover_inteleon_shape.png);
     }
   }
 }
@@ -227,7 +227,7 @@ img {
   letter-spacing: 3.6px;
   text-align: center;
   color: $white;
-  background-image: url(/static/image/special/intereon2207/title_bg.png);
+  background-image: url(/sp/static/image/special/intereon2207/title_bg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -250,7 +250,7 @@ img {
   letter-spacing: 3.6px;
   text-align: center;
   color: $white;
-  background-image: url(/static/image/special/intereon2207/title_intere.png);
+  background-image: url(/sp/static/image/special/intereon2207/title_intere.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -542,7 +542,7 @@ img {
   width: vw(750, 654);
   height: vw(750, 90);
   border-radius: 45px;
-  background-image: url(/static/image/special/intereon2207/cta_btn.png);
+  background-image: url(/sp/static/image/special/intereon2207/cta_btn.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -611,7 +611,7 @@ img {
     width: vw(750, 654.1);
     height: vw(750, 720);
     border-radius: 32px;
-    background-image: url(/static/image/special/intereon2207/syuku_bg.png);
+    background-image: url(/sp/static/image/special/intereon2207/syuku_bg.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -679,7 +679,7 @@ img {
   &__box-inner {
     padding: vw(750, 30.5) 7px;
     border-radius: 32px;
-    background-image: url(/static/image/special/intereon2207/bg_grey.png);
+    background-image: url(/sp/static/image/special/intereon2207/bg_grey.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -724,7 +724,7 @@ img {
     display: block;
     padding-top: 16vw;
     margin: 0 auto;
-    background-image: url(/static/image/special/intereon2207/title_spbig.png);
+    background-image: url(/sp/static/image/special/intereon2207/title_spbig.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -733,7 +733,7 @@ img {
   &__box {
     width: vw(750, 654);
     height: 299.066667vw;
-    background-image: url(/static/image/special/intereon2207/days.png);
+    background-image: url(/sp/static/image/special/intereon2207/days.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
