@@ -8,8 +8,6 @@ body {
   font-weight: 400;
   line-height: 1.75;
   color: #30363a;
-  position: relative;
-  cursor: none;
   margin: 0; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -64,8 +62,8 @@ img {
 .cursor,
 .follower {
   position: absolute;
-  top: 28vw;
-  left: 24vw;
+  top: 0;
+  left: 0;
   pointer-events: none; }
 
 .cursor {
@@ -95,6 +93,7 @@ img {
 
 .intereon2207_contents {
   overflow-x: hidden;
+  width: 100vw;
   padding-bottom: 37.3333333333vw;
   background: url(/sp/static/image/special/intereon2207/bg_main.png) repeat left top; }
 
@@ -150,18 +149,6 @@ img {
     .production__item:hover {
       background-image: url(/sp/static/image/special/intereon2207/hover_inteleon_shape.png); }
 
-/*.title__wrapper {*/
-/*  margin: 10.8133333333vw auto 7.1px auto;*/
-/*  padding-top: 8vw;*/
-/*  background-image: url(/sp/static/image/special/intereon2207/title_bg.png);*/
-/*  background-size: contain;*/
-/*  background-repeat: no-repeat;*/
-/*  background-position: center;*/
-/*  width: 68.9333333333vw;*/
-/*  height: 27.3333333333vw;*/
-/*  left: 0;*/
-/*  bottom: 0; }*/
-
 .section__title {
   display: block;
   padding-top: 14vw;
@@ -211,7 +198,7 @@ img {
 .production__container {
   position: relative;
   width: 100%;
-  padding: 3.4533333333vw;
+  padding: 3vw;
   box-shadow: 2.8px 2.9px 3px 0 rgba(2, 37, 75, 0.15);
   border: solid 10px #54b7d4;
   background-color: #ebf1f7;
@@ -228,7 +215,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 5.3333333333vw;
-  width: 80vw;
+  width: 78vw;
   border-radius: 32px;
   box-shadow: 0 0 10px 0 rgba(2, 37, 75, 0.1);
   background-color: #fff; }
@@ -238,13 +225,14 @@ img {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 10px; }
+  gap: 1vw; }
 .production__img-item {
   width: 45%; }
 .production__img-wrapper {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between; }
+  justify-content: space-between;
+  width: 69vw; }
 .production__img {
   flex-shrink: 0;
   margin-bottom: 2.1333333333vw;
@@ -255,7 +243,8 @@ img {
   align-items: center;
   justify-content: center; }
   .production__img img {
-    width: 26.4666666667vw; }
+    width: auto;
+    height: 45.75vw; }
 .production__img1 {
   flex-shrink: 0;
   width: 14.6666666667vw;
@@ -272,7 +261,7 @@ img {
     border: solid 4px #54b7d4; }
   .production__img1 img {
     width: 5.2vw;
-    height: 12vw; }
+    height: 12.1333333333vw; }
 .production__img2 {
   flex-shrink: 0;
   width: 14.6666666667vw;
@@ -288,11 +277,11 @@ img {
   .production__img2:hover {
     border: solid 4px #54b7d4; }
   .production__img2 img {
-    width: 5.2vw;
-    height: 12vw; }
+    width: 9.4666666667vw;
+    height: 12.1333333333vw; }
 .production__desc {
   padding: 7.2vw 4.2vw;
-  width: 77vw;
+  width: 72vw;
   border-radius: 16px;
   border: solid 4px #54b7d4;
   background-color: #EAF6FA; }
@@ -357,10 +346,10 @@ img {
   text-align: left;
   color: #30363a; }
 .production__text-sub {
-  font-size: 3.4666666667vw;
+  font-size: 2.8vw;
   margin-top: -5vw; }
 .production__inform {
-  width: 68.44vw; }
+  width: 63vw; }
 .production__inform-item {
   display: flex;
   flex-direction: column;
@@ -406,6 +395,7 @@ img {
 .production__attention-items {
   margin-bottom: 6vw; }
 .production__attention-item {
+  margin: 0 auto;
   width: 77.24vw;
   font-family: "Noto Sans JP";
   font-size: 3.2vw;
@@ -478,7 +468,7 @@ img {
   opacity: 0; }
 
 .accordion__wrapper {
-  display: none;
+  display: block;
   transition-duration: 0.2s; }
 
 .open.accordion__wrapper {
@@ -488,7 +478,6 @@ img {
   margin-bottom: 10vw;
   width: 87.2133333333vw;
   height: 96vw;
-  border-radius: 32px;
   background-image: url(/sp/static/image/special/intereon2207/syuku_bg.png);
   background-size: contain;
   background-position: center;
@@ -604,6 +593,6 @@ img {
   position: fixed;
   right: 10vw;
   bottom: 4vw;
-  z-index: 999; }
+  z-index: 9999; }
 
 /*# sourceMappingURL=intereon2207.css.map */

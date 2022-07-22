@@ -9,6 +9,7 @@ $(window).on("load", function () {
 
 //アコーディオン
 $(function(){
+    $('#accordion').addClass('open');
     $('#accordion').click(function(){
         $(this).next('.accordion__wrapper').slideToggle();
         $(this).toggleClass("open");
